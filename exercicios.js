@@ -83,3 +83,20 @@ if (estaChovendo) {
 } else {
     console.log('O tempo está bom, sem necessidade de guarda-chuva.');
 }
+
+
+
+//VErificar variaveis NaN - not a number
+
+const numero3 = 10;
+const nome3 = 'Ana';
+
+console.log(Number.isNaN(numero3)) // false
+console.log(Number.isNaN(nome3)) // false
+console.log(Number.isNaN(NaN)) // true
+
+console.log(isNaN(10)) // false
+console.log(isNaN(nome3)) // true
+console.log(isNaN(NaN))
+
+
