@@ -39,9 +39,7 @@ console.log('Tipo de dado após conversão de string para número: ', typeof tex
 
 //5 - Crie uma variável com uma string e utilize métodos de manipulação de strings, 
 //como toUpperCase, toLowerCase, slice ou outros, para modificar a string original. Exiba os resultados finais no console.
-const texto = 'JavaScript é incrível!';
-
-const maiusculas = texto.toUpperCase();
+const texto = 'JavaScript é incrível!'; const maiusculas = texto.toUpperCase();
 const minusculas = texto.toLowerCase();
 const parteDaString = texto.slice(0, 10);
 
